@@ -1,0 +1,61 @@
+.navbar-brand {
+  font-family: "Montez", cursive;
+  font-size: 2em;
+  color: blue;
+}
+
+.center-text {
+  text-align: center;
+}
+.like-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+}
+.comment_input {
+  width: 100%;
+  background-color: rgb(237, 237, 237);
+  margin-bottom: 15px;
+}
+.text-para {
+  margin-top: 20px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.top-right-button {
+  /* position: absolute; */
+  top: 20px;
+  right: 20px;
+  background-color: #3498db; /* Change color as needed */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.comment-section {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.comment {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.paratext {
+  /* background-color: white; */
+  color: black;
+  /* text-align: center; */
+  margin-bottom: 30px;
+}

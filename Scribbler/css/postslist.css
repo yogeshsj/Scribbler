@@ -1,0 +1,68 @@
+.navbar-brand {
+  font-family: "Montez", cursive;
+  font-size: 2em;
+  color: blue;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(530px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 0 0 48%;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.options-btn {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  /* background-color: #3498db; */
+  /* color: white; */
+  border: none;
+  border-radius: 5px;
+}
+.options-btn:hover {
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.card-content {
+  display: flex;
+}
+.sub-head {
+  margin-right: 30px;
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Page</title>
+    <link rel="stylesheet" href="/css/post.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <div>
+          <a class="navbar-brand">ScriBBler</a>
+          <p class="Subheading">Explore, Imagine, Create</p>
+        </div>
+        <div>
+          <!-- <button>HOme</button> -->
+          <a
+            href="/html/index.html"
+            class="btn btn-primary"
+            style="margin-top: -30px"
+          >
+            Home
+          </a>
+          <button
+            class="btn btn-primary"
+            style="margin-top: -30px"
+            data-bs-toggle="modal"
+            href="#exampleModalToggle"
+            role="button"
+          >
+            Sign-In
+          </button>
+          <button
+            class="btn btn-primary"
+            style="margin-top: -30px"
+            data-bs-target="#exampleModalToggle2"
+            data-bs-toggle="modal"
+            data-bs-dismiss="modal"
+          >
+            Sign-Up
+          </button>
+          <a
+            href="/html/post.html"
+            class="btn btn-primary"
+            style="margin-top: -30px"
+          >
+            Comment
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Post Title -->
+      <h1 id="post-title" class="center-text">Beauty Of Nature</h1>
+
+      <!-- Author's Name -->
+      <div style="display: flex">
+        <h4 id="author-name" class="left-text">Times Of India</h4>
+
+        <!-- Edit/Save Button -->
+        <button id="edit-button" class="top-right-button">Edit</button>
+      </div>
+
+      <!-- Post Content -->
+      <div id="post-content">
+        <p class="paratext">
+          Nature has given us so much that we cannot even imagine. Life on this
+          earth is possible only because of nature. There are many other planets
+          in the universe but without this nature life is not possible there.
+          Thus nature is the basis of our life. Nature is not the same
+          everywhere on earth. According to the place, nature changes its
+          appearance and according to that place provides us with resources, as
+          well as provides comfort to our mind, our eyes. Nature gives us so
+          much, so it is our duty to respect it knowing its importance and not
+          to destroy it for our selfishness. So that the children of man can
+          also enjoy its beauty and take advantage of it, otherwise one day will
+          be when people will be able to see and feel the beauty of this nature
+          on the computer itself.
+        </p>
+      </div>
+
+      <!-- Like Button -->
+      <button id="like-button" class="like-button">
+        Like <i class="fas fa-thumbs-up"></i>
+      </button>
+      <p id="like-info" class="text-para">Be the first one to like this!</p>
+
+      <!-- Comment Section -->
+      <input
+        type="text"
+        id="comment-input"
+        placeholder="Leave a comment..."
+        class="comment_input"
+        autofocus
+      />
+      <button id="comment-button" class="like-button">Comment</button>
+      <h2 style="font-style: bold; font-size: 18px; margin-top: 16px">
+        All Comments
+      </h2>
+      <div id="all-comments" class="comment-section">
+        <!-- Comments will be displayed here -->
+      </div>
+    </div>
+
+    <script src="/js/post.js"></script>
+  </body>
+</html>
